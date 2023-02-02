@@ -1,0 +1,150 @@
+@media all and (max-width:500px) { 
+    a {
+        text-decoration: none;
+    }
+    .body {
+        position: absolute;
+        width:0px;
+        left: 0px;
+    }
+    .body_adaptive {
+        position: absolute;
+        width: 500px;
+        height: 905px;
+    }
+    .start_game {
+        position: absolute;
+        left: 0px;
+        font-size: 0px;
+    top: 15px;
+        color: white;
+    }
+    .instruction {
+        position: absolute;
+        top: 90px;
+    font-size: 30px;
+        color: white;
+    }
+    .download_Radmir {
+        position: absolute;
+        top: 160px;
+        font-family: Anton;
+        font-size: 20px;
+        color: white;
+    }
+    .download_Radmir:hover {
+        color: rgba(165, 42, 42, 0.507);
+    }
+    .download_santa {
+        position: absolute;
+        top: 190px;
+        font-size: 18px;
+        color: white;
+    
+    }
+    .download_santa:hover {
+        color:rgba(165, 42, 42, 0.507);
+    }
+    .drop_file {
+        position: absolute;
+        top:  220px;
+        font-size: 20px;
+        color: white;
+        font-family: Anton;
+    }
+    .video_instruction {
+        position:absolute;
+        top: 300px;
+    
+        color: white;
+        left: 100px;
+    }
+    .download-button {
+        position: absolute;
+        left: 300px;
+        top: 155px ;
+        width: 100px;
+        height: 30px;
+        background: linear-gradient(257.5deg,#e08e00db -7.46%,#f94b00 74.36%);
+        box-shadow: 0 27px 64px -16px rgb(255 184 0 / 64%);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        transition: transform .2s ease;
+    }
+
+    .download-button2 {
+        position: absolute;
+        left: 300px;
+        top:190px ;
+        width: 100px;
+        height: 30px;
+        background: linear-gradient(257.5deg,#003feea5 -7.46%,#030387 74.36%);
+        box-shadow: 0 27px 64px -16px rgba(0, 208, 255, 0.64);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        transition: transform .2s ease;
+    }
+    /* Dropdown Button */
+    .dropbtn {
+        position: absolute;
+        background-color: #3498DB;
+        color: white;
+        padding: 0px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        left: 425px;
+        top: 13px;
+        width: 60px;
+    }
+    
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        position: absolute;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 119, 255, 0.981);
+        z-index: 1;
+        left: 340px;
+        top: 55px;
+        border-radius: 25px;
+        
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+}
